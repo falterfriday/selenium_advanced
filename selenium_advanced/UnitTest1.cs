@@ -29,7 +29,7 @@ namespace selenium_advanced
             foreach (var radioButton in radioButtons)
             {
                 if (radioButton.Selected)
-                    Console.Write("The " + radioButton.GetAttribute("value") + " one is selected");
+                    Console.WriteLine("The " + radioButton.GetAttribute("value") + " one is selected");
             }
 
             var check = driver.FindElement(By.Id("check1"));
@@ -53,11 +53,22 @@ namespace selenium_advanced
 
             //the easy way
             //make sure to install selenium support classes
+            //and use "using OpenQA.Selenium.Support.UI"
             var selectElement = new SelectElement(select);
             selectElement.SelectByText("Steve");
             selectElement.SelectByText("Bob");
             selectElement.SelectByText("Steve");
             selectElement.SelectByText("Allen");
+
+            //the simple-hard way
+            var outerTable = driver.FindElement(By.TagName("table"));
+            var innerTable = outerTable.FindElement(By.TagName("table"));
+            var row = innerTable.FindElements(By.TagName("td"))[1];
+            Console.WriteLine(row.Text);
+
+            //xpath
+            var row1 = driver.FindElement(By.XPath("/html/body/table/tbody/tr/td[2]/table/tbody/tr[2]/td"));
+            Console.WriteLine("this is the xpath row: " + row1.Text);
         }
     }
 }

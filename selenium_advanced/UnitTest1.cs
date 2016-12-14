@@ -56,19 +56,23 @@ namespace selenium_advanced
             //and use "using OpenQA.Selenium.Support.UI"
             var selectElement = new SelectElement(select);
             selectElement.SelectByText("Steve");
+            
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+            
             selectElement.SelectByText("Bob");
             selectElement.SelectByText("Steve");
             selectElement.SelectByText("Allen");
 
             //the simple-hard way
+            //becomes much harder at higher levels of nesting
             var outerTable = driver.FindElement(By.TagName("table"));
             var innerTable = outerTable.FindElement(By.TagName("table"));
             var row = innerTable.FindElements(By.TagName("td"))[1];
-            Console.WriteLine(row.Text);
+            Console.WriteLine("This is the multiple selector row: " + row.Text);
 
             //xpath
             var row1 = driver.FindElement(By.XPath("/html/body/table/tbody/tr/td[2]/table/tbody/tr[2]/td"));
-            Console.WriteLine("this is the xpath row: " + row1.Text);
+            Console.WriteLine("This is the xpath row: " + row1.Text);
         }
     }
 }

@@ -12,14 +12,6 @@ namespace selenium_advanced
         [TestMethod]
         public void TestMethod1()
         {
-            //string chromeDriverPath = @"C:\testing\chrome\";
-            //using (IWebDriver driver = new ChromeDriver(chromeDriverPath))
-            //{
-            //    driver.Navigate().GoToUrl("file:///C:/Users/Patrick.Todd/Documents/Visual%20Studio%202013/Projects/03_selenium_webdriver/selenium_advanced/selenium_advanced/TestPage1.html");
-            //    var radioButtons = driver.FindElements(By.Name("color"));
-            //    radioButtons.
-            //}
-
             string chromeDriverPath = @"C:\testing\chrome\";
             IWebDriver driver = new ChromeDriver(chromeDriverPath);
             driver.Url = "file:///C:/Users/Patrick.Todd/Documents/Visual%20Studio%202013/Projects/03_selenium_webdriver/selenium_advanced/selenium_advanced/TestPage1.html";

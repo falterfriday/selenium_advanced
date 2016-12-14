@@ -1,0 +1,9 @@
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\bin\Debug\selenium_advanced.dll
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\bin\Debug\selenium_advanced.pdb
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\bin\Debug\WebDriver.dll
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\bin\Debug\WebDriver.Support.dll
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\bin\Debug\WebDriver.xml
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\bin\Debug\WebDriver.Support.xml
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\obj\Debug\selenium_advanced.csprojResolveAssemblyReference.cache
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\obj\Debug\selenium_advanced.dll
+C:\Users\Patrick.Todd\Documents\Visual Studio 2013\Projects\03_selenium_webdriver\selenium_advanced\selenium_advanced\obj\Debug\selenium_advanced.pdb
